@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+      "SF Pro Text", var(--font-sans-kr), "Apple SD Gothic Neo", "Pretendard",
+      sans-serif;
+    letter-spacing: -0.015em;
+    word-break: keep-all;
+  }
+
+  .font-num {
+    font-family: var(--font-mono-num), -apple-system, BlinkMacSystemFont,
+      sans-serif;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+}
